@@ -1,6 +1,11 @@
-# Created by Admin at 12-12-2022
-Feature: # Enter feature name here
-  # Enter feature description here
 
-  Scenario: # Enter scenario name here
-    # Enter steps here
+Feature: Shop By Category Page
+
+
+  Scenario: Verify the "Body" Header is visible
+    Given Open Cureskin Page
+    When Click on Shop by Category
+    Then Verify Body is visible
+
+
+
