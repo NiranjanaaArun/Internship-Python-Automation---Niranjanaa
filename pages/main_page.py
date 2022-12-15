@@ -13,7 +13,7 @@ class MainPage(Page):
 
     def header(self):
         expected_result = "Body"
-        actual_result = self.driver.find_element(*self.Body).text
+        actual_result = self.driver.find_elements_by_(*self.Body).text
         assert expected_result == actual_result, f' Error! expected {expected_result} but got {actual_result}'
 
 
