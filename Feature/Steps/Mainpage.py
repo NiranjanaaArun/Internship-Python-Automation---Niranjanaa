@@ -10,6 +10,7 @@ def main_page (context):
     #context.driver.get("https://shop.cureskin.com/")
     context.App.main_page.open_main()
 
+
 @when("Click on {category}")
 def shop_by_category(context, category):
     context.App.main_page.shop_by_category()
